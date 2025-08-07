@@ -8,7 +8,7 @@ class Gituser < Formula
   depends_on "bash"
 
   def install
-    bin.install "gituser"
+    bin.install "bin/gituser"
   end
 
   test do
